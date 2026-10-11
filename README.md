@@ -34,4 +34,4 @@ cybersecurity-portfolio/
 ## 📬 Connect with Me
 
 - **GitHub:** [@Sebapruz](https://github.com/Sebapruz)
-- **LinkedIn:** [AQUÍ_PEGA_TU_LINK_DE_LINKEDIN]
+- **LinkedIn:** https://www.linkedin.com/in/sebastianpalmaruz/
