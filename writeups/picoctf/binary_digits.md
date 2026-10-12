@@ -18,7 +18,7 @@ Al descargar el archivo `digits.bin`, evité asumir su formato y utilicé la ter
 
 ## Solución
 Al abrir la imagen resultante en el entorno de Kali, se visualiza directamente la bandera del desafío.
-- **Flag:** picoCTF{AQUI_PONES_LA_FLAG_QUE_VISTE}
+- **Flag:** academy{h1dd3n_1n_th3_b1n4ry_1b150ee9}
 
 ## Qué aprendí
 - **Nunca confiar en las extensiones de los archivos.** La herramienta `file` es el primer paso obligatorio en Forense.
