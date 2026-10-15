@@ -1,4 +1,4 @@
-# Leaked Diffie-Hellman Secret
+# Share Secrets
 
 **CTF / Cryptography / Medio / 14 de octubre de 2026**
 
