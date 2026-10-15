@@ -45,6 +45,7 @@ enc_bytes = bytes.fromhex('b7b5b7b2b3bbafadb2be89a5e5b5a4e5a289b3e5efe3e2b4b3b4a
 # Operación XOR inversa
 decrypted = bytes([x ^ (shared % 256) for x in enc_bytes])
 print(decrypted.decode('utf-8'))
+```
 
 **Flag:** `academy{dh_s3cr3t_e3954beb}`
 
