@@ -1,5 +1,5 @@
 # RootMe
-**TryHackMe / Web, Privilege Escalation / Fácil / 19 de octubre de 2026**
+**TryHackMe / Web, Escalada de privilegios / Fácil / 19 de octubre de 2026**
 
 ## Resumen
 Resolución de la máquina RootMe de TryHackMe. El desafío consistió en enumerar un servidor web Apache, descubrir un directorio oculto para subida de archivos, evadir un filtro básico de extensión para subir una reverse shell en PHP y finalmente escalar privilegios abusando de una mala configuración del bit SUID en el binario de Python.

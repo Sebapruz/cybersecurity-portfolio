@@ -1,5 +1,5 @@
 # Shared Secrets
-**picoCTF (CyLab Security Academy) / Cryptography / Medio / 14 de octubre de 2026**
+**picoCTF (CyLab Security Academy) / Criptografía / Medio / 14 de octubre de 2026**
 
 ## Resumen
 

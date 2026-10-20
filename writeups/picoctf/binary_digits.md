@@ -1,5 +1,5 @@
 # Binary Digits
-**picoCTF (CyLab Security Academy) / Forensics / Fácil / 12 de octubre de 2026**
+**picoCTF (CyLab Security Academy) / Forense / Fácil / 12 de octubre de 2026**
 
 ## Resumen
 El desafío proporciona un archivo sin extensión que aparenta ser ruido binario (solo 1s y 0s). El objetivo fue identificar la verdadera naturaleza del archivo y decodificar su contenido para revelar una imagen oculta con la flag.

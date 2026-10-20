@@ -1,5 +1,5 @@
 # StegoRSA
-**picoCTF (CyLab Security Academy) / Cryptography - Forensics / Medio / 12 de octubre de 2026**
+**picoCTF (CyLab Security Academy) / Criptografía, Forense / Medio / 12 de octubre de 2026**
 
 ## Resumen
 El reto entregó un archivo cifrado (`flag.enc`) y una imagen. El objetivo fue realizar un análisis esteganográfico a la imagen para recuperar una llave privada RSA oculta en los metadatos y utilizarla para desencriptar el mensaje final.

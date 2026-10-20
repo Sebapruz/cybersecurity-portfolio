@@ -1,5 +1,5 @@
 # Pickle Rick
-**TryHackMe / Web Hacking - Boot2Root / Fácil / 15 de octubre de 2026**
+**TryHackMe / Web, Boot2Root / Fácil / 15 de octubre de 2026**
 
 ## Resumen
 La máquina presenta un servidor web vulnerable de temática Rick and Morty. El objetivo fue realizar enumeración web para obtener credenciales filtradas, explotar un panel de comandos vulnerable a inyección, evadir filtros de comandos de Linux y finalmente escalar privilegios a root aprovechando una mala configuración en el archivo `sudoers` para recolectar tres ingredientes secretos (flags).
