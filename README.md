@@ -8,7 +8,6 @@ Este repositorio reúne mis writeups técnicos, scripts y reportes de laboratori
 
 ## 📝 Writeups
 
-> El índice se genera automáticamente con [`scripts/generar_indice.py`](scripts/generar_indice.py) y GitHub Actions cada vez que agrego o modifico un writeup.
 
 <!-- INDICE:INICIO -->
 **6 writeups** en 3 categorías: [Criptografía](#criptografía) (3) · [Web](#web) (2) · [Forense](#forense) (1)
