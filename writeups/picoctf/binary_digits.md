@@ -1,5 +1,5 @@
 # Binary Digits
-**PicoCTF / Forensics / Fácil / 12 de octubre de 2026**
+**picoCTF (CyLab Security Academy) / Forensics / Fácil / 12 de octubre de 2026**
 
 ## Resumen
 El desafío proporciona un archivo sin extensión que aparenta ser ruido binario (solo 1s y 0s). El objetivo fue identificar la verdadera naturaleza del archivo y decodificar su contenido para revelar una imagen oculta con la flag.
@@ -18,7 +18,7 @@ Al descargar el archivo `digits.bin`, evité asumir su formato y utilicé la ter
 
 ## Solución
 Al abrir la imagen resultante en el entorno de Kali, se visualiza directamente la bandera del desafío.
-- **Flag:** academy{h1dd3n_1n_th3_b1n4ry_1b150ee9}
+- **Flag:** `academy{...}` *(oculta intencionalmente)*
 
 ## Qué aprendí
 - **Nunca confiar en las extensiones de los archivos.** La herramienta `file` es el primer paso obligatorio en Forense.

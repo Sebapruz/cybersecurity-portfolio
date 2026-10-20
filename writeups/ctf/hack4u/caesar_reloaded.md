@@ -24,7 +24,7 @@ Para resolver este reto sin recurrir a la fuerza bruta a ciegas, apliqué un **A
 
 ## Solución
 Tras aplicar el desplazamiento de 19 posiciones a toda la cadena, la bandera obtenida fue:
-`H4U{caesar_no_es_suficientemente_seguro}`
+`H4U{...}` *(oculta intencionalmente)*
 
 ## Qué aprendí
 - **Cifrado César:** Reforcé el concepto de algoritmos de sustitución monoalfabética por desplazamiento, uno de los métodos de cifrado más antiguos.

@@ -25,9 +25,9 @@ Inicié el reconocimiento con un escaneo de Nmap que reveló los puertos 22 (SSH
 ![Tercer ingrediente](assets/third_ingredient.png)
 
 ## Solución
-- **Ingrediente 1:** `mr. meeseek hair`
-- **Ingrediente 2:** `1 jerry tear`
-- **Ingrediente 3:** `fleeb juice`
+- **Ingrediente 1:** *(oculto intencionalmente)*
+- **Ingrediente 2:** *(oculto intencionalmente)*
+- **Ingrediente 3:** *(oculto intencionalmente)*
 
 ## Qué aprendí
 - **Importancia del Fuzzing con extensiones:** Buscar solo directorios con Gobuster omite archivos críticos como `login.php`. El uso de `-x` es obligatorio.

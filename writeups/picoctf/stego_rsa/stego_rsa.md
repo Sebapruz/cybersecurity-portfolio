@@ -1,5 +1,5 @@
 # StegoRSA
-**PicoCTF / Cryptography - Forensics / Medio / 12 de octubre de 2026**
+**picoCTF (CyLab Security Academy) / Cryptography - Forensics / Medio / 12 de octubre de 2026**
 
 ## Resumen
 El reto entregó un archivo cifrado (`flag.enc`) y una imagen. El objetivo fue realizar un análisis esteganográfico a la imagen para recuperar una llave privada RSA oculta en los metadatos y utilizarla para desencriptar el mensaje final.
@@ -23,7 +23,7 @@ Inicié el análisis verificando la naturaleza de los archivos descargados:
 ## Solución
 Al leer el archivo resultante de OpenSSL o el output en consola, obtuve el mensaje original en texto claro.
 ![Desencriptación con OpenSSL](assets/openssl_decrypt.png)
-- **Flag:** academy{rs4_k3y_1mg_42380180}
+- **Flag:** `academy{...}` *(oculta intencionalmente)*
 
 ## Qué aprendí
 - **Metadatos como vector de esteganografía:** Herramientas como `exiftool` son fundamentales en la fase de reconocimiento; los comentarios EXIF son un escondite muy común.
