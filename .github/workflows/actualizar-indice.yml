@@ -1,0 +1,29 @@
+name: Actualizar índice de writeups
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "writeups/**"
+      - "scripts/generar_indice.py"
+  workflow_dispatch:
+
+# Permiso mínimo: solo escribir el contenido del repositorio (para el commit del README).
+permissions:
+  contents: write
+
+jobs:
+  indice:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Generar índice
+        run: python3 scripts/generar_indice.py
+
+      - name: Guardar cambios si el índice cambió
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || (git commit -m "Actualizar índice de writeups" && git push)
